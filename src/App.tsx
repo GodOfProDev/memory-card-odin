@@ -14,7 +14,7 @@ const App = () => {
 
     return (
         <div>
-            <h1 className="p-4 text-center text-2xl font-semibold">
+            <h1 className="p-3 text-center text-2xl font-semibold">
                 Memory Game
             </h1>
             <div className="flex items-center justify-center gap-4 p-2 pb-6">
