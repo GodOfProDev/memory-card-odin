@@ -30,6 +30,7 @@ async function fetchRandomPokemons(count: number): Promise<Pokemon[]> {
         } while (randomIndexes.includes(rndIndx))
         randomIndexes.push(rndIndx)
     }
+
     for (let i = 0; i < count; i++) {
         const response = await fetch(
             `https://pokeapi.co/api/v2/pokemon/${randomIndexes[i]}`
